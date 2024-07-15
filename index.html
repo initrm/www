@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-light">
+<html lang="en">
   <head>
     <title>Andrea Tinelli</title>
 
@@ -17,60 +17,68 @@
   </head>
   <body>
 
-    <div class="container my-5 is-fluid">
-      <div class="columns is-centered">
-        <div class="column is-narrow">
+    <!-- Theme Toggle -->
+    <div class="columns is-mobile">
+      <!-- Offset -->
+      <div class="column"></div>
+      <!-- Buttons -->
+      <div class="column is-narrow">
+        <button id="theme-toggle-light" target="_blank" class="button is-light is-rounded">
+          <i class="lni lni-sun"></i>
+        </button>
+        <button id="theme-toggle-dark" target="_blank" class="button is-dark is-rounded">
+          <i class="lni lni-night"></i>
+        </button>
+      </div>
+    </div>
 
-          <!-- Title -->
-          <h1 class="title has-text-centered">Personal Website of <span class="has-text-info">Andrea Tinelli</span></h1>
+    <!-- Main Content -->
+    <div class="section">
+      <div class="container">
 
-          <!-- Paragraph -->
-          <p class="has-text-centered">
-            work in progress
-            <br />
-            meanwhile, check my socials:
-          </p>
+        <!-- Title -->
+        <h1 class="title has-text-centered">
+          Personal Website of <span class="has-text-info">Andrea Tinelli</span>
+        </h1>
 
-          <br />
+        <!-- WIP "Alert" -->
+        <p class="has-text-centered">🚧 work in progress 🚧</p>
 
-          <!-- Socials -->
-          <div class="columns is-centered">
-            <div class="column is-one-third">
-              <a aria-label="LinkedIn" href="https://github.com/initrm" target="_blank" class="button is-info is-light is-rounded is-fullwidth">
-                <i class="lni lni-github-original"></i>
-              </a>
-            </div>
-            <div class="column is-one-third">
-              <a aria-label="GitHub" href="https://www.linkedin.com/in/andrea-tinelli" target="_blank" class="button is-info is-light is-rounded is-fullwidth">
-                <i class="lni lni-linkedin-original"></i>
-              </a>
-            </div>
-            <div aria-label="X (Twitter)" class="column is-one-third">
-              <a href="https://x.com/initrm" target="_blank" class="button is-info is-light is-rounded is-fullwidth">
-                <i class="lni lni-twitter-original"></i>
-              </a>
-            </div>
+        <!-- Socials -->
+        <p class="has-text-centered">meanwhile, you can check my socials:</p>
+        <div class="columns is-centered mt-1">
+          <div class="column is-narrow">
+            <a aria-label="LinkedIn" href="https://github.com/initrm" target="_blank" class="button is-info is-light is-rounded is-fullwidth">
+              <i class="lni lni-github-original"></i>
+            </a>
           </div>
-
-          <div class="columns is-centered">
-            <div class="column is-narrow">
-              <p class="has-text-centered">
-                contacts:
-                <br />
-                <i class="lni lni-envelope"></i>
-                <br />
-                (work) <a href="mailto:tinelliandrea2@outlook.it">tinelliandrea2@outlook.it</a>
-                <br />
-                (personal) <a href="mailto:tinelliandrea2@gmail.com">tinelliandrea2@gmail.com</a>
-                <br />
-                <i class="lni lni-bubble"></i>
-                <br />
-                (telegram) <a target="_blank" href="https://t.me/initrm">@initrm</a>
-              </p>
-            </div>
+          <div class="column is-narrow">
+            <a aria-label="GitHub" href="https://www.linkedin.com/in/andrea-tinelli" target="_blank" class="button is-info is-light is-rounded is-fullwidth">
+              <i class="lni lni-linkedin-original"></i>
+            </a>
           </div>
-
+          <div aria-label="X (Twitter)" class="column is-narrow">
+            <a href="https://x.com/initrm" target="_blank" class="button is-info is-light is-rounded is-fullwidth">
+              <i class="lni lni-twitter-original"></i>
+            </a>
+          </div>
         </div>
+
+        <!-- Contacts -->
+        <p class="has-text-centered">
+          contacts:
+          <br />
+          <i class="lni lni-envelope"></i>
+          <br />
+          (work) <a href="mailto:tinelliandrea2@outlook.it">tinelliandrea2@outlook.it</a>
+          <br />
+          (personal) <a href="mailto:tinelliandrea2@gmail.com">tinelliandrea2@gmail.com</a>
+          <br />
+          <i class="lni lni-bubble"></i>
+          <br />
+          (telegram) <a target="_blank" href="https://t.me/initrm">@initrm</a>
+        </p>
+
       </div>
     </div>
 
@@ -96,6 +104,11 @@
         </div>
       </div>
     </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Theme Switch -->
+    <script src="./theme.js"></script>
 
   </body>
 </html>
